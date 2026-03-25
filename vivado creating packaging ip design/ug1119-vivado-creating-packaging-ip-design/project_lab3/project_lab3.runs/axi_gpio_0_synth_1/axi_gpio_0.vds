@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jan 13 09:47:51 2026
+# Process ID         : 25304
+# Current directory  : C:/Users/User/vivado/project_lab3/project_lab3.runs/axi_gpio_0_synth_1
+# Command line       : vivado.exe -log axi_gpio_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_gpio_0.tcl
+# Log file           : C:/Users/User/vivado/project_lab3/project_lab3.runs/axi_gpio_0_synth_1/axi_gpio_0.vds
+# Journal file       : C:/Users/User/vivado/project_lab3/project_lab3.runs/axi_gpio_0_synth_1\vivado.jou
+# Running On         : IBM-480
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 PRO 5850U with Radeon Graphics     
+# CPU Frequency      : 1896 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33099 MB
+# Swap memory        : 2080 MB
+# Total Virtual      : 35180 MB
+# Available Virtual  : 14905 MB
+#-----------------------------------------------------------
+source axi_gpio_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 660.277 ; gain = 219.949
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_3/pcores/axi_gpio_v1_01_b'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_3/pcores/interrupt_control_v2_01_a'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_3/pcores/axi_lite_ipif_v1_01_a'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_3/pcores/proc_common_v3_00_a'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+Command: synth_design -top axi_gpio_0 -part xc7k70tfbg484-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9796
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1212.918 ; gain = 531.055
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-4169] error in use clause: package 'proc_common_pkg' not found in library 'proc_common_v3_00_a' [c:/Users/User/vivado/project_lab3/project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/ipif_pkg.vhd:616]
+ERROR: [Synth 8-36] 'log2' is not declared [c:/Users/User/vivado/project_lab3/project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/ipif_pkg.vhd:1194]
+ERROR: [Synth 8-36] 'log2' is not declared [c:/Users/User/vivado/project_lab3/project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/ipif_pkg.vhd:1212]
+INFO: [Synth 8-11252] unit 'ipif_pkg' is ignored due to previous errors [c:/Users/User/vivado/project_lab3/project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/ipif_pkg.vhd:1320]
+INFO: [Synth 8-10443] VHDL file 'c:/Users/User/vivado/project_lab3/project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/ipif_pkg.vhd' is ignored due to errors
+ERROR: [Synth 8-12189] Failed to read vhdl 'c:/Users/User/vivado/project_lab3/project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/ipif_pkg.vhd'
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.395 ; gain = 649.531
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.395 ; gain = 656.910
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 13 09:48:10 2026...

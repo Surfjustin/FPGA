@@ -1,0 +1,14 @@
+verilog xil_defaultlib -i "../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../my_simple_uart_0/sources_1/imports/src/meta_harden.v" \
+"../../../../my_simple_uart_0/sources_1/imports/src/uart_baud_gen.v" \
+"../../../../my_simple_uart_0/sources_1/imports/src/uart_rx.v" \
+"../../../../my_simple_uart_0/sources_1/imports/src/uart_rx_ctl.v" \
+"../../../../my_simple_uart_0/sources_1/imports/src/uart_tx.v" \
+"../../../../my_simple_uart_0/sources_1/imports/src/uart_tx_ctl.v" \
+"../../../../my_simple_uart_0/sources_1/imports/src/uart_top.v" \
+"../../../../my_simple_uart_0/sim/my_simple_uart_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

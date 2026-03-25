@@ -1,0 +1,3 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/my_simple_uart.srcs/constrs_1/imports/constrs/uart_top.xdc rfile:../../../my_simple_uart.srcs/constrs_1/imports/constrs/uart_top.xdc id:1 order:LATE} [current_design]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_cells uart_rx_i0/meta_harden_rxd_i0/signal_meta_reg] -to [get_cells uart_rx_i0/meta_harden_rxd_i0/signal_dst_reg] [get_property PERIOD [get_clocks -of_objects [get_ports rx_clk]]]

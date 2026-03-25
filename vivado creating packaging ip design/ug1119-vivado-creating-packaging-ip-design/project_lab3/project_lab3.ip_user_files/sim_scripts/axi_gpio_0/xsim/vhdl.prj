@@ -1,0 +1,22 @@
+vhdl proc_common_v3_00_a  \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/family_support.vhd" \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/ipif_pkg.vhd" \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/proc_common_v3_00_a/pselect_f.vhd" \
+
+vhdl axi_lite_ipif_v1_01_a  \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/axi_lite_ipif_v1_01_a/address_decoder.vhd" \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/axi_lite_ipif_v1_01_a/axi_lite_ipif.vhd" \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/axi_lite_ipif_v1_01_a/slave_attachment.vhd" \
+
+vhdl interrupt_control_v2_01_a  \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/interrupt_control_v2_01_a/interrupt_control.vhd" \
+
+vhdl axi_gpio_v1_01_b  \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/axi_gpio_v1_01_b/hdl/vhdl/gpio_core.vhd" \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/axi_gpio_v1_01_b/hdl/vhdl/axi_gpio.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../project_lab3.gen/sources_1/ip/axi_gpio_0/sim/axi_gpio_0.vhd" \
+
+# Do not sort compile order
+nosort

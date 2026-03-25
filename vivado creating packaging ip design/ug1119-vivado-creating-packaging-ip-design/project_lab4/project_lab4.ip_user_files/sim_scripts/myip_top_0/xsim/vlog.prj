@@ -1,0 +1,11 @@
+verilog common_v1_0 -i "../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../project_lab4.gen/sources_1/ip/myip_top_0/src/common_top.v" \
+
+verilog xil_defaultlib -i "../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../project_lab4.gen/sources_1/ip/myip_top_0/src/myip_top.v" \
+"../../../../project_lab4.gen/sources_1/ip/myip_top_0/sim/myip_top_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

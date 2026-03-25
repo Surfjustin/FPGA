@@ -1,0 +1,452 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jan 13 09:15:55 2026
+# Process ID         : 10920
+# Current directory  : c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.runs/wave_gen_tutorial_0_synth_1
+# Command line       : vivado.exe -log wave_gen_tutorial_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wave_gen_tutorial_0.tcl
+# Log file           : c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.runs/wave_gen_tutorial_0_synth_1/wave_gen_tutorial_0.vds
+# Journal file       : c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.runs/wave_gen_tutorial_0_synth_1\vivado.jou
+# Running On         : IBM-480
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 PRO 5850U with Radeon Graphics     
+# CPU Frequency      : 1896 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33099 MB
+# Swap memory        : 2080 MB
+# Total Virtual      : 35180 MB
+# Available Virtual  : 15277 MB
+#-----------------------------------------------------------
+source wave_gen_tutorial_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 663.312 ; gain = 222.484
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/users/user/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.cache/ip 
+Command: synth_design -top wave_gen_tutorial_0 -part xc7k70tfbg484-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Device 21-403] Loading part xc7k70tfbg484-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7900
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1397.785 ; gain = 541.562
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11065] parameter 'NSAMP_MIN' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:87]
+WARNING: [Synth 8-11065] parameter 'NSAMP_MAX' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:88]
+WARNING: [Synth 8-11065] parameter 'PRESCALE_MIN' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:89]
+WARNING: [Synth 8-11065] parameter 'SPEED_MIN' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:90]
+WARNING: [Synth 8-11065] parameter 'RAM_MAX' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:91]
+WARNING: [Synth 8-11065] parameter 'SAMP_WID' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:92]
+WARNING: [Synth 8-11065] parameter 'PRE_WID' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:93]
+WARNING: [Synth 8-11065] parameter 'SPD_WID' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:94]
+WARNING: [Synth 8-11065] parameter 'MAX_ARG_CH' becomes localparam in 'cmd_parse' with formal parameter declaration list [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:95]
+INFO: [Synth 8-11241] undeclared symbol 'start_spi', assumed default net type 'wire' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/dac_spi.v:85]
+INFO: [Synth 8-11241] undeclared symbol 'dac_clr_n_o', assumed default net type 'wire' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen.v:193]
+INFO: [Synth 8-6157] synthesizing module 'wave_gen_tutorial_0' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/synth/wave_gen_tutorial_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'wave_gen' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen.v:32]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:82804]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:82804]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:113520]
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:113520]
+INFO: [Synth 8-6157] synthesizing module 'clk_gen' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clk_gen.v:33]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clk_div.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clk_div.v:30]
+INFO: [Synth 8-6157] synthesizing module 'clk_core' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clk_core.v:16]
+INFO: [Synth 8-6157] synthesizing module 'BUFHCE' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2936]
+INFO: [Synth 8-6155] done synthesizing module 'BUFHCE' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2936]
+INFO: [Synth 8-6155] done synthesizing module 'clk_gen' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clk_gen.v:33]
+INFO: [Synth 8-6157] synthesizing module 'rst_gen' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/rst_gen.v:26]
+INFO: [Synth 8-6157] synthesizing module 'reset_bridge' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/reset_bridge.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'reset_bridge' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/reset_bridge.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'rst_gen' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/rst_gen.v:26]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_rx.v:37]
+INFO: [Synth 8-6157] synthesizing module 'meta_harden' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/meta_harden.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'meta_harden' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/meta_harden.v:27]
+INFO: [Synth 8-6157] synthesizing module 'uart_baud_gen' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_baud_gen.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'uart_baud_gen' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_baud_gen.v:35]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx_ctl' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_rx_ctl.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx_ctl' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_rx_ctl.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_rx.v:37]
+INFO: [Synth 8-6157] synthesizing module 'cmd_parse' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:37]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:365]
+INFO: [Synth 8-6155] done synthesizing module 'cmd_parse' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/cmd_parse.v:37]
+INFO: [Synth 8-6157] synthesizing module 'samp_ram' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/samp_ram.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'samp_ram' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/samp_ram.v:25]
+INFO: [Synth 8-6157] synthesizing module 'resp_gen' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/resp_gen.v:41]
+INFO: [Synth 8-6157] synthesizing module 'to_bcd' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/to_bcd.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'to_bcd' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/to_bcd.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'resp_gen' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/resp_gen.v:41]
+INFO: [Synth 8-6157] synthesizing module 'char_fifo' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/char_fifo.v:16]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_tx.v:35]
+INFO: [Synth 8-6157] synthesizing module 'uart_baud_gen__parameterized0' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_baud_gen.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'uart_baud_gen__parameterized0' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_baud_gen.v:35]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx_ctl' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_tx_ctl.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx_ctl' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_tx_ctl.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/uart_tx.v:35]
+INFO: [Synth 8-6157] synthesizing module 'lb_ctl' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/lb_ctl.v:32]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/debouncer.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/debouncer.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'lb_ctl' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/lb_ctl.v:32]
+INFO: [Synth 8-6157] synthesizing module 'clkx_bus' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clkx_bus.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'clkx_bus' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clkx_bus.v:34]
+INFO: [Synth 8-6157] synthesizing module 'clkx_bus__parameterized0' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clkx_bus.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'clkx_bus__parameterized0' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/clkx_bus.v:34]
+INFO: [Synth 8-6157] synthesizing module 'samp_gen' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/samp_gen.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'samp_gen' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/samp_gen.v:43]
+INFO: [Synth 8-6157] synthesizing module 'dac_spi' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/dac_spi.v:32]
+INFO: [Synth 8-6157] synthesizing module 'out_ddr_flop' [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/out_ddr_flop.v:28]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117225]
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117225]
+INFO: [Synth 8-6155] done synthesizing module 'out_ddr_flop' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/out_ddr_flop.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'dac_spi' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/dac_spi.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'wave_gen' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'wave_gen_tutorial_0' (0#1) [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/synth/wave_gen_tutorial_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1529.320 ; gain = 673.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1529.320 ; gain = 673.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1529.320 ; gain = 673.098
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1529.320 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_pins.xdc] for cell 'inst'
+CRITICAL WARNING: [Vivado 12-1765] 'all_outputs' is not supported while reading scoped constraints, an empty list will be returned. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_pins.xdc:67]
+Resolution: If the IP comes from packaging a top-level design, you will need to modify the top-level constraints before running IP Packager and replace 'all_inputs'/'all_outputs' queries with some equivalent 'get_ports' queries.
+WARNING: [Vivado 12-829] No fanin objects found for 'all_fanin -only_cells -startpoints_only -flat [all_outputs]'. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_pins.xdc:67]
+Finished Parsing XDC File [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_pins.xdc] for cell 'inst'
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_pins.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/wave_gen_tutorial_0_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/wave_gen_tutorial_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/wave_gen_tutorial_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc] for cell 'inst'
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:7]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports clk_pin_p]'. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:9]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:9]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports clk_pin_p]'. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:10]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:10]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins clk_gen_i0/clk_core_i0/clk_rx]'. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:51]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:51]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins clk_gen_i0/clk_core_i0/clk_tx]'. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:51]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc:51]
+Finished Parsing XDC File [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc] for cell 'inst'
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_2/custom_ip_repo/wave_gen_v1_0/src/wave_gen_tutorial_0/src/wave_gen_timing.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/wave_gen_tutorial_0_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Parsing XDC File [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.runs/wave_gen_tutorial_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.runs/wave_gen_tutorial_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1549.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1549.586 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1549.586 ; gain = 693.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1549.586 ; gain = 693.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1549.586 ; gain = 693.363
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_rx_ctl'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'cmd_parse'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_tx_ctl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_rx_ctl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+                CMD_WAIT |                              001 |                              001
+                 GET_ARG |                              010 |                              010
+                READ_RAM |                              011 |                              011
+               READ_RAM2 |                              100 |                              100
+               SEND_RESP |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'cmd_parse'
+INFO: [Synth 8-3971] The signal "samp_ram:/mem_array_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                 iSTATE2 |                               01 |                               01
+                  iSTATE |                               10 |                               10
+                 iSTATE0 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_tx_ctl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1549.586 ; gain = 693.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 6     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 10    
+	   2 Input    8 Bit       Adders := 8     
+	   2 Input    7 Bit       Adders := 11    
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 12    
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 4     
++---Registers : 
+	               28 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               16 Bit    Registers := 12    
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                7 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 64    
++---RAMs : 
+	              16K Bit	(1024 X 16 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   19 Bit        Muxes := 2     
+	   6 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 12    
+	   7 Input    8 Bit        Muxes := 1     
+	  14 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 3     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   7 Input    3 Bit        Muxes := 2     
+	   6 Input    3 Bit        Muxes := 4     
+	   3 Input    3 Bit        Muxes := 3     
+	   4 Input    2 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 13    
+	   5 Input    2 Bit        Muxes := 1     
+	   7 Input    2 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 57    
+	   4 Input    1 Bit        Muxes := 3     
+	   6 Input    1 Bit        Muxes := 28    
+	   7 Input    1 Bit        Muxes := 3     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element samp_ram_i0/mem_array_reg was removed. 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1832.668 ; gain = 976.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+---------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst        | samp_ram_i0/mem_array_reg | 1 K x 16(WRITE_FIRST)  | W | R | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++------------+---------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 1832.668 ; gain = 976.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 1832.668 ; gain = 976.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+---------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst        | samp_ram_i0/mem_array_reg | 1 K x 16(WRITE_FIRST)  | W | R | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++------------+---------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/samp_ram_i0/mem_array_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 1844.895 ; gain = 988.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 2003.355 ; gain = 1147.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 2003.355 ; gain = 1147.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 2003.355 ; gain = 1147.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 2003.355 ; gain = 1147.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 2004.312 ; gain = 1148.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 2004.312 ; gain = 1148.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |char_fifo     |         1|
+|2     |clk_core      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |char_fifo_bbox |     1|
+|2     |clk_core_bbox  |     1|
+|3     |BUFHCE         |     1|
+|4     |CARRY4         |    32|
+|5     |LUT1           |    56|
+|6     |LUT2           |    83|
+|7     |LUT3           |   155|
+|8     |LUT4           |    91|
+|9     |LUT5           |   122|
+|10    |LUT6           |   279|
+|11    |MUXF7          |     1|
+|12    |ODDR           |     1|
+|13    |RAMB18E1       |     1|
+|14    |FDPE           |     6|
+|15    |FDRE           |   414|
+|16    |FDSE           |    26|
+|17    |IBUF           |     3|
+|18    |OBUF           |    13|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 2004.312 ; gain = 1148.090
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 2004.312 ; gain = 1127.824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2004.312 ; gain = 1148.090
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2004.312 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 35 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2017.184 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b5a6fc17
+INFO: [Common 17-83] Releasing license: Synthesis
+95 Infos, 18 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:01 . Memory (MB): peak = 2017.184 ; gain = 1341.496
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2017.184 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.runs/wave_gen_tutorial_0_synth_1/wave_gen_tutorial_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 34 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2017.184 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'c:/Users/User/vivado/ug1119-vivado-creating-packaging-ip-design/ug1119-vivado-creating-packaging-ip-design/lab_1/project_lab2/project_lab2.tmp/edit_ip_project.runs/wave_gen_tutorial_0_synth_1/wave_gen_tutorial_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file wave_gen_tutorial_0_utilization_synth.rpt -pb wave_gen_tutorial_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 13 09:17:09 2026...

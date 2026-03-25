@@ -1,0 +1,65 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "wave_gen_tutorial_0",
+    "component_reference": "my_company:user:wave_gen_tutorial:1.0",
+    "ip_revision": "1",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "BAUD_RATE": [ { "value": "115200", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_RX": [ { "value": "200000000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_TX": [ { "value": "166667000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "PW": [ { "value": "3", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "NSAMP_WID": [ { "value": "10", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "wave_gen_tutorial_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "BAUD_RATE": [ { "value": "115200", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_RX": [ { "value": "200000000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_TX": [ { "value": "166667000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "PW": [ { "value": "3", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "NSAMP_WID": [ { "value": "10", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "kintex7", "resolve_type": "generated", "usage": "all" } ],
+        "BASE_BOARD_PART": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "BOARD_CONNECTIONS": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "DEVICE": [ { "value": "xc7k70t", "resolve_type": "generated", "usage": "all" } ],
+        "PACKAGE": [ { "value": "fbg484", "resolve_type": "generated", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "resolve_type": "generated", "usage": "all" } ],
+        "SILICON_REVISION": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "resolve_type": "generated", "usage": "all" } ],
+        "SPEEDGRADE": [ { "value": "-2", "resolve_type": "generated", "usage": "all" } ],
+        "STATIC_POWER": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "TEMPERATURE_GRADE": [ { "value": "", "resolve_type": "generated", "usage": "all" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Flow" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "." } ],
+        "SWVERSION": [ { "value": "2025.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "clk_pin_p": [ { "direction": "in" } ],
+        "clk_pin_n": [ { "direction": "in" } ],
+        "rst_pin": [ { "direction": "in" } ],
+        "rxd_pin": [ { "direction": "in" } ],
+        "txd_pin": [ { "direction": "out" } ],
+        "lb_sel_pin": [ { "direction": "in" } ],
+        "spi_clk_pin": [ { "direction": "out" } ],
+        "spi_mosi_pin": [ { "direction": "out" } ],
+        "dac_cs_n_pin": [ { "direction": "out" } ],
+        "dac_clr_n_pin": [ { "direction": "out" } ],
+        "led_pins": [ { "direction": "out", "size_left": "7", "size_right": "0" } ]
+      }
+    }
+  },
+  "checksum": "5dc95898"
+}

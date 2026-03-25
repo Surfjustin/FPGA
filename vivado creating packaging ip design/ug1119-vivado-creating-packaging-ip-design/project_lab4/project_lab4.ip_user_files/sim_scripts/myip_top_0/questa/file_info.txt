@@ -1,0 +1,4 @@
+common_top.v,verilog,common_v1_0,../../../../project_lab4.gen/sources_1/ip/myip_top_0/src/common_top.v,incdir="../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+myip_top.v,verilog,xil_defaultlib,../../../../project_lab4.gen/sources_1/ip/myip_top_0/src/myip_top.v,incdir="../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+myip_top_0.v,verilog,xil_defaultlib,../../../../project_lab4.gen/sources_1/ip/myip_top_0/sim/myip_top_0.v,incdir="../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

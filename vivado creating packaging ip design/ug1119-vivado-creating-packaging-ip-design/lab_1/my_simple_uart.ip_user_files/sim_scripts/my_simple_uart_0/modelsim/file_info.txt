@@ -1,0 +1,9 @@
+meta_harden.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/src/meta_harden.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+uart_baud_gen.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/src/uart_baud_gen.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+uart_rx.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/src/uart_rx.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+uart_rx_ctl.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/src/uart_rx_ctl.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+uart_tx.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/src/uart_tx.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+uart_tx_ctl.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/src/uart_tx_ctl.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+uart_top.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/src/uart_top.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+my_simple_uart_0.v,verilog,xil_defaultlib,../../../../my_simple_uart.gen/sources_1/ip/my_simple_uart_0/sim/my_simple_uart_0.v,incdir="../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v
