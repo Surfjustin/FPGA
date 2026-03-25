@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Jan 26 13:40:17 2026
+# Process ID         : 16004
+# Current directory  : C:/Users/User/vivado/zcu106_test_led
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent1052 C:\Users\User\vivado\zcu106_test_led\zcu106_test_led.xpr
+# Log file           : C:/Users/User/vivado/zcu106_test_led/vivado.log
+# Journal file       : C:/Users/User/vivado/zcu106_test_led\vivado.jou
+# Running On         : IBM-480
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 PRO 5850U with Radeon Graphics     
+# CPU Frequency      : 1896 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33099 MB
+# Swap memory        : 3483 MB
+# Total Virtual      : 36583 MB
+# Available Virtual  : 1912 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/vivado/zcu106_test_led/zcu106_test_led.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:48 ; elapsed = 00:00:23 . Memory (MB): peak = 1916.254 ; gain = 303.148
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 26 13:45:52 2026...
+: constrs_1
+Design is defaulting to synth run part: xczu7ev-ffvc1156-2-e
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.dcp' for cell 'design_1_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.dcp' for cell 'design_1_i/axi_gpio_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0.dcp' for cell 'design_1_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.dcp' for cell 'design_1_i/rst_ps8_0_99M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.dcp' for cell 'design_1_i/zynq_ultra_ps_e_0'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.480 . Memory (MB): peak = 3059.609 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_1/U0'
+Finished Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_1/U0'
+Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'design_1_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/smartconnect.xdc] for cell 'design_1_i/axi_smc/inst'
+Finished Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/smartconnect.xdc] for cell 'design_1_i/axi_smc/inst'
+Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+Finished Parsing XDC File [c:/Users/User/vivado/zcu106_test_led/zcu106_test_led.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc] for cell 'design_1_i/rst_ps8_0_99M/U0'
+INFO: [Project 1-1714] 65 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3867.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 5 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+
+open_run: Time (s): cpu = 00:01:01 ; elapsed = 00:01:07 . Memory (MB): peak = 5049.270 ; gain = 3138.359
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 26 13:45:57 2026...
