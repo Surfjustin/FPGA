@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Jan 19 11:43:33 2026
+# Process ID         : 22540
+# Current directory  : C:/Users/User/vivado/ug995_tutorial/ug995_tutorial.runs/subsystem_1_axi_interconnect_0_imp_auto_pc_3_synth_1
+# Command line       : vivado.exe -log subsystem_1_axi_interconnect_0_imp_auto_pc_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source subsystem_1_axi_interconnect_0_imp_auto_pc_3.tcl
+# Log file           : C:/Users/User/vivado/ug995_tutorial/ug995_tutorial.runs/subsystem_1_axi_interconnect_0_imp_auto_pc_3_synth_1/subsystem_1_axi_interconnect_0_imp_auto_pc_3.vds
+# Journal file       : C:/Users/User/vivado/ug995_tutorial/ug995_tutorial.runs/subsystem_1_axi_interconnect_0_imp_auto_pc_3_synth_1\vivado.jou
+# Running On         : IBM-480
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 PRO 5850U with Radeon Graphics     
+# CPU Frequency      : 1896 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33099 MB
+# Swap memory        : 2080 MB
+# Total Virtual      : 35180 MB
+# Available Virtual  : 11169 MB
+#-----------------------------------------------------------
+source subsystem_1_axi_interconnect_0_imp_auto_pc_3.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 662.340 ; gain = 220.449
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP subsystem_1_axi_interconnect_0_imp_auto_pc_3, cache-ID = b2155d2a8ef1c6cd.
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 19 11:43:49 2026...

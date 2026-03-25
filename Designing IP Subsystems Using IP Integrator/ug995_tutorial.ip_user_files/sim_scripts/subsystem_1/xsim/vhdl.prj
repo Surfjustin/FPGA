@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_quad_spi_0_0/sim/subsystem_1_axi_quad_spi_0_0.vhd" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_iic_0_0/sim/subsystem_1_axi_iic_0_0.vhd" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_uartlite_0_0/sim/subsystem_1_axi_uartlite_0_0.vhd" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_bram_ctrl_0_0/sim/subsystem_1_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_intc_0_0/sim/subsystem_1_axi_intc_0_0.vhd" \
+
+# Do not sort compile order
+nosort

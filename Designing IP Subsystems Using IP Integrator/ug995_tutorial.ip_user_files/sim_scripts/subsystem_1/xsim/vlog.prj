@@ -1,0 +1,15 @@
+verilog xil_defaultlib -i "../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" --include "../../../../ug995_tutorial.gen/sources_1/bd/subsystem_1/ipshared/ec67/hdl" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_interconnect_0_imp_xbar_0/sim/subsystem_1_axi_interconnect_0_imp_xbar_0.v" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_bram_ctrl_0_bram_0/sim/subsystem_1_axi_bram_ctrl_0_bram_0.v" \
+"../../../bd/subsystem_1/ip/subsystem_1_xlconcat_0_0/sim/subsystem_1_xlconcat_0_0.v" \
+"../../../bd/subsystem_1/ip/subsystem_1_xlconstant_0_0/sim/subsystem_1_xlconstant_0_0.v" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_interconnect_0_imp_auto_pc_0/sim/subsystem_1_axi_interconnect_0_imp_auto_pc_0.v" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_interconnect_0_imp_auto_pc_1/sim/subsystem_1_axi_interconnect_0_imp_auto_pc_1.v" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_interconnect_0_imp_auto_pc_2/sim/subsystem_1_axi_interconnect_0_imp_auto_pc_2.v" \
+"../../../bd/subsystem_1/ip/subsystem_1_axi_interconnect_0_imp_auto_pc_3/sim/subsystem_1_axi_interconnect_0_imp_auto_pc_3.v" \
+"../../../bd/subsystem_1/sim/subsystem_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
