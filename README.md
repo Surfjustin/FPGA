@@ -152,12 +152,12 @@ Generate Bitstream 生成位元流檔案。
 
 # 其餘專案
 
-#### Vivado Design Suite Tutorial: Design Flows Overview 
+#### Vivado Design Suite Tutorial: Design Flows Overview : 
 熟悉 Vivado Design Suite 的兩種核心工作流程專案模式 (Project Mode)與非專案模式 (Non-Project Mode)，建立從 RTL 代碼到硬體位元流 (Bitstream) 的完整思維框架。
 
-#### Vivado Design Suite Tutorial: Implementation 
+#### Vivado Design Suite Tutorial: Implementation : 
 透過 Vivado IDE 進行設計約束、佈局佈線、物理優化以及時序收斂。
 
-#### Vivado Design Suite Tutorial: Designing with IP
+#### Vivado Design Suite Tutorial: Designing with IP : 
 如何有效地利用、配置與管理 IP 核 (Intellectual Property)
 
